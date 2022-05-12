@@ -1,0 +1,233 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+
+
+
+/* HEAD */
+header {
+    height: 600px;
+    width: 100vw;
+    background: rgb(55, 48, 87);
+    overflow: hidden;
+}
+img {
+   object-fit: cover;
+   opacity: 0.4;
+}
+.imgh:hover{
+    opacity: 0.8;
+}
+.text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.btn{
+    background: none;
+    border: solid 2px white;
+    padding: 3px 10px 3px 10px;
+    font-size: smaller;
+}
+a{
+    background: none;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+    font-family: inherit;
+    color: white;
+}
+.btn:hover{
+    border: solid 2px rgb(32, 209, 200);
+}
+a:hover{
+    color: rgb(32, 209, 200);
+}
+.underline{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 350px;
+}
+p{
+    padding-top: 10px;
+}
+
+
+
+/* Antra eile */
+.dvieju{
+    display: flex;
+}
+.container{
+    height: 500px;
+    width: 34vw;
+    background: rgb(146, 136, 0);
+    overflow: hidden;
+}
+.container1{
+    height: 500px;
+    width: 66vw;
+    background: rgb(0, 128, 28);
+    overflow: hidden;
+}
+.container:hover{
+    background: none;
+}
+.container1:hover{
+    background: none;
+}
+.text1{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.text2{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+/* Trecia eile */
+.dvieju2{
+    display: flex;
+}
+.container3{
+    height: 500px;
+    width: 66vw;
+    background: rgb(204, 0, 0);
+    overflow: hidden;
+}
+.container4{
+    height: 500px;
+    width: 34vw;
+    background: rgb(145, 79, 161);
+    overflow: hidden;
+}
+.container3:hover{
+    background: none;
+}
+.container4:hover{
+    background: none;
+}
+.text3{
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.text4{
+    position: absolute;
+    top: 140%;
+    left: 75%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+/* Ketvirta eile */
+.dvieju3{
+    display: flex;
+}
+.container5{
+    height: 500px;
+    width: 34vw;
+    background: rgb(0, 107, 57);
+    overflow: hidden;
+}
+.container6{
+    height: 500px;
+    width: 66vw;
+    background: rgb(0, 255, 234);
+    overflow: hidden;
+}
+.container5:hover{
+    background: none;
+}
+.container6:hover{
+    background: none;
+}
+.text5{
+    position: absolute;
+    top: 190%;
+    left: 10%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.text6{
+    position: absolute;
+    top: 190%;
+    left: 45%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+/* Antras */
+.massa{
+    height: 500px;
+    background-color: rgb(55, 48, 87);
+    color: white;
+}
+
+.massain{
+    padding: 50px 200px 50px 200px;
+}
+
+.paragr{
+    padding: 40px 0 40px 0;
+}
+
+.btn1{
+    background: none;
+    border: solid 2px white;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    height: 250px;
+    background-color: rgb(34, 29, 58);
+    color: white;
+    align-items: center wrap;
+    justify-content: left;
+    padding: 0px 200px 0px 200px;
+}
+.fa{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: rgb(34, 29, 58);
+    padding: 5px 5px 5px 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.column{
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+}
